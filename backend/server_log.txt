@@ -83,3 +83,4 @@ Client disconnected: BK5e7Iy6l9yWbqZ5AAAo
 [JOIN] userType=captain userId=6a29d50aa648a6de888de905 socket.id=CwBOt9P9SYKDIUl9AAAn token_present=true
 [JOIN] JWT decoded._id=6a29d50aa648a6de888de905 userId=6a29d50aa648a6de888de905 match=true
 [JOIN] SAVED captain socketId captainId=6a29d50aa648a6de888de905 socketId=CwBOt9P9SYKDIUl9AAAn
+Client connected: wrnitruO0UjcuYiUAAAq
