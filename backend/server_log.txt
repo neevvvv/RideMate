@@ -1,0 +1,85 @@
+Server is running on port 3001
+Client connected: wYZ4xrPDG8S3Rqd-AAAB
+Connected to DB
+Client connected: x4ux8_4bZ9yX43HJAAAD
+Client connected: C57e8vd6GdFCXwtpAAAF
+Client connected: dNpvuMd0iau6TnvXAAAH
+Client disconnected: C57e8vd6GdFCXwtpAAAF
+Client disconnected: wYZ4xrPDG8S3Rqd-AAAB
+Client disconnected: x4ux8_4bZ9yX43HJAAAD
+Client disconnected: dNpvuMd0iau6TnvXAAAH
+Client connected: -hblH3HivstASJ5wAAAN
+Client connected: NhAcn6dmnG1m_qh3AAAO
+Client connected: _wD7qf13bJ08jQ93AAAQ
+Client disconnected: NhAcn6dmnG1m_qh3AAAO
+Client disconnected: -hblH3HivstASJ5wAAAN
+Client disconnected: _wD7qf13bJ08jQ93AAAQ
+Client connected: wDcBA-2TlmcABWDkAAAS
+Client connected: 6vd4b375QVrzYjG1AAAU
+Client connected: cru8Wda7BDYN6RYnAAAW
+Client disconnected: wDcBA-2TlmcABWDkAAAS
+Client connected: 3awAjy_q7vJ8CJvZAAAY
+Client connected: By6S_R7qdMXy7cjDAAAa
+[JOIN] userType=captain userId=6a29d50aa648a6de888de905 socket.id=By6S_R7qdMXy7cjDAAAa token_present=true
+[JOIN] JWT decoded._id=6a29d50aa648a6de888de905 userId=6a29d50aa648a6de888de905 match=true
+[JOIN] SAVED captain socketId captainId=6a29d50aa648a6de888de905 socketId=By6S_R7qdMXy7cjDAAAa
+Client disconnected: 6vd4b375QVrzYjG1AAAU
+Client connected: EjD7sNya_wXk5GFKAAAc
+[JOIN] userType=user userId=6a28727b2f2661154d64ef4e socket.id=EjD7sNya_wXk5GFKAAAc token_present=true
+[JOIN] JWT decoded._id=6a28727b2f2661154d64ef4e userId=6a28727b2f2661154d64ef4e match=true
+[JOIN] SAVED user socketId userId=6a28727b2f2661154d64ef4e socketId=EjD7sNya_wXk5GFKAAAc
+[SEND] event=new-ride targetSocketId=By6S_R7qdMXy7cjDAAAa io_ready=true
+[SEND] emitted event=new-ride to socketId=By6S_R7qdMXy7cjDAAAa
+[CONFIRM_RIDE] rideId=6a2a81ca4e3158389c358a1f status=accepted
+[CONFIRM_RIDE] ride.user._id=6a28727b2f2661154d64ef4e ride.user.socketId=EjD7sNya_wXk5GFKAAAc
+[CONFIRM_RIDE] ride.captain._id=6a29d50aa648a6de888de905 ride.captain.socketId=By6S_R7qdMXy7cjDAAAa
+[SEND] event=ride-confirmed targetSocketId=EjD7sNya_wXk5GFKAAAc io_ready=true
+[SEND] emitted event=ride-confirmed to socketId=EjD7sNya_wXk5GFKAAAc
+[START_RIDE] req.body= {"rideId":"6a2a81ca4e3158389c358a1f","otp":"658832"}
+[START_RIDE] rideId=6a2a81ca4e3158389c358a1f otp=658832 otp_type=string
+[START_RIDE_SVC] rideId=6a2a81ca4e3158389c358a1f
+[START_RIDE_SVC] ride found=true
+[START_RIDE_SVC] ride.status=accepted
+[START_RIDE_SVC] ride.otp=658832 (type=string) | received otp=658832 (type=string) | match=true
+[START_RIDE] SUCCESS ride._id=6a2a81ca4e3158389c358a1f status=accepted
+[SEND] event=ride-started targetSocketId=EjD7sNya_wXk5GFKAAAc io_ready=true
+[SEND] emitted event=ride-started to socketId=EjD7sNya_wXk5GFKAAAc
+[SEND] event=ride-ended targetSocketId=EjD7sNya_wXk5GFKAAAc io_ready=true
+[SEND] emitted event=ride-ended to socketId=EjD7sNya_wXk5GFKAAAc
+[JOIN] userType=user userId=6a28727b2f2661154d64ef4e socket.id=EjD7sNya_wXk5GFKAAAc token_present=true
+[JOIN] JWT decoded._id=6a28727b2f2661154d64ef4e userId=6a28727b2f2661154d64ef4e match=true
+[JOIN] userType=captain userId=6a29d50aa648a6de888de905 socket.id=By6S_R7qdMXy7cjDAAAa token_present=true
+[JOIN] JWT decoded._id=6a29d50aa648a6de888de905 userId=6a29d50aa648a6de888de905 match=true
+[JOIN] SAVED user socketId userId=6a28727b2f2661154d64ef4e socketId=EjD7sNya_wXk5GFKAAAc
+[JOIN] SAVED captain socketId captainId=6a29d50aa648a6de888de905 socketId=By6S_R7qdMXy7cjDAAAa
+[JOIN] userType=user userId=6a28727b2f2661154d64ef4e socket.id=EjD7sNya_wXk5GFKAAAc token_present=true
+[JOIN] JWT decoded._id=6a28727b2f2661154d64ef4e userId=6a28727b2f2661154d64ef4e match=true
+[JOIN] SAVED user socketId userId=6a28727b2f2661154d64ef4e socketId=EjD7sNya_wXk5GFKAAAc
+[JOIN] userType=user userId=6a28727b2f2661154d64ef4e socket.id=EjD7sNya_wXk5GFKAAAc token_present=true
+[JOIN] JWT decoded._id=6a28727b2f2661154d64ef4e userId=6a28727b2f2661154d64ef4e match=true
+[JOIN] SAVED user socketId userId=6a28727b2f2661154d64ef4e socketId=EjD7sNya_wXk5GFKAAAc
+[JOIN] userType=user userId=6a28727b2f2661154d64ef4e socket.id=EjD7sNya_wXk5GFKAAAc token_present=true
+[JOIN] JWT decoded._id=6a28727b2f2661154d64ef4e userId=6a28727b2f2661154d64ef4e match=true
+[JOIN] SAVED user socketId userId=6a28727b2f2661154d64ef4e socketId=EjD7sNya_wXk5GFKAAAc
+Client connected: Dh-djxGSSTVPJfvGAAAe
+Client connected: ca8uWMmVCbr2zdN5AAAg
+Client connected: tTG_v8Q9zxhLoq_OAAAi
+Client disconnected: Dh-djxGSSTVPJfvGAAAe
+Client disconnected: 3awAjy_q7vJ8CJvZAAAY
+Client disconnected: By6S_R7qdMXy7cjDAAAa
+Client disconnected: tTG_v8Q9zxhLoq_OAAAi
+Client disconnected: EjD7sNya_wXk5GFKAAAc
+Client disconnected: ca8uWMmVCbr2zdN5AAAg
+Client connected: zWaShhIOwTJ7WcO4AAAm
+Client connected: CwBOt9P9SYKDIUl9AAAn
+Client connected: BK5e7Iy6l9yWbqZ5AAAo
+[JOIN] userType=captain userId=6a29d50aa648a6de888de905 socket.id=CwBOt9P9SYKDIUl9AAAn token_present=true
+[JOIN] JWT decoded._id=6a29d50aa648a6de888de905 userId=6a29d50aa648a6de888de905 match=true
+[JOIN] SAVED captain socketId captainId=6a29d50aa648a6de888de905 socketId=CwBOt9P9SYKDIUl9AAAn
+[JOIN] userType=user userId=6a28727b2f2661154d64ef4e socket.id=BK5e7Iy6l9yWbqZ5AAAo token_present=true
+[JOIN] JWT decoded._id=6a28727b2f2661154d64ef4e userId=6a28727b2f2661154d64ef4e match=true
+[JOIN] SAVED user socketId userId=6a28727b2f2661154d64ef4e socketId=BK5e7Iy6l9yWbqZ5AAAo
+Client disconnected: BK5e7Iy6l9yWbqZ5AAAo
+[JOIN] userType=captain userId=6a29d50aa648a6de888de905 socket.id=CwBOt9P9SYKDIUl9AAAn token_present=true
+[JOIN] JWT decoded._id=6a29d50aa648a6de888de905 userId=6a29d50aa648a6de888de905 match=true
+[JOIN] SAVED captain socketId captainId=6a29d50aa648a6de888de905 socketId=CwBOt9P9SYKDIUl9AAAn
